@@ -1,0 +1,72 @@
+html body {
+    margin: 0px;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif; */
+    /* background-image:url(black3.jpg); */
+    color:black;
+    background-color: white;
+}
+
+.logo{
+  height : 20px;
+  width : 20px;
+  margin-left: 10px;
+}
+
+.card_number{
+  color : white;
+  /* margin-left: -10px; */
+}
+
+.cart-row{
+	display: flex;
+  /* align-items: flex-stretch; */
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+
+}
+
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.image_view{
+  height : 100px;
+  width : 200px;
+}
+
+.chg-quantity{
+	width: 12px;
+	cursor: pointer;
+	display: block;
+	/* margin-top: 5px; */
+	transition:.1s;
+}
+
+.quantity{
+	/* display: inline-block; */
+	font-weight: 700;
+	padding-right:10px;
+  margin-top: -40px;
+  margin-left: 20px;
+}
+.form-field{
+	width:250px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.row-image{
+  height : 20px;
+  width : 20px;
+}
+
+.hello{
+  color : white;
+  margin: 20px;
+}
